@@ -1,8 +1,25 @@
-﻿# CrayThrive
+# CrayThrive
 
 An Android-focused mobile application for crayfish farm monitoring and management, built with React Native, Expo, and Supabase.
 
 CrayThrive brings tank readings, manual ammonia assessments, alerts, activity history, farming guidance, and a marketplace into one mobile interface.
+
+This is the mobile component of my **CrayThrive capstone project**. The companion [React web dashboard](https://github.com/Julian-Dev-Web/craythrive-web) provides browser-based farm management.
+
+## My role
+
+**Capstone project lead and sole software developer — [Julian](https://github.com/Julian-Dev-Web).**
+
+I developed the mobile interface, Supabase integration, Edge Functions, monitoring and threshold workflows, marketplace features, and application checks. This repository presents my software implementation within the capstone team.
+
+## Screenshots
+
+<p>
+  <img src="docs/screenshots/welcome-android.jpg" alt="CrayThrive Android welcome screen" width="270">
+  <img src="docs/screenshots/dashboard-android.jpg" alt="CrayThrive Android tank dashboard" width="270">
+</p>
+
+Existing Android captures from an earlier build, reused from the companion web repository's public app showcase. Layout and labels can differ from the current source. [Screenshot provenance](docs/screenshots/README.md).
 
 ## Features
 
