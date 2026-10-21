@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "CrayThrive",
+    "slug": "craythrive_supa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/craythrive-app-icon.png",
+    "scheme": "craythrivesupa",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "allowBackup": false,
+      "package": "com.craythrive.mobile",
+      "versionCode": 8,
+      "googleServicesFile": "./google-services.json",
+      "icon": "./assets/images/craythrive-app-icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/craythrive-app-icon.png",
+        "backgroundColor": "#FBF9F1"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/Logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/craythrive-notification-icon.png",
+          "color": "#22D3C5",
+          "defaultChannel": "craythrive-alerts"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/Logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FBF9F1",
+          "dark": {
+            "backgroundColor": "#061826"
+          }
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "70848eee-cacd-4d43-a806-8fba32552c69"
+      }
+    }
+  }
+}

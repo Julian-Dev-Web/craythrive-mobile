@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198515090464",
+    "project_id": "craythrive-mobile-push",
+    "storage_bucket": "craythrive-mobile-push.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198515090464:android:037d7336f1264a6f554845",
+        "android_client_info": {
+          "package_name": "com.craythrive.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo2895vY2Bi3XYD_NRxWqgf9SA3NUC5_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+project_id = "craythrive_supa"
+
+# Database webhooks authenticate with PUSH_WEBHOOK_SECRET inside the handler.
+# This does not change authentication for the existing AI function.
+[functions.send-craythrive-push]
+verify_jwt = false
